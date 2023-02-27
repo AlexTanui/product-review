@@ -1,7 +1,7 @@
 # Vehicles Product Review
-This is a code challenge using ruby classes and methods that supposed to print out the magazine name author and article titles.
+This is a code challenge using  Active Record Migrations, Active Record Associations, Class and Instance Methods, and Active Record Querying in Ruby.
 
-This repo contains a list of three files, articles, test and test3. The aarticles files contains the code of the author, magazine and articles while the test file contain the test to be run.
+This repo contains a list of three folders, app, config and db. The folders contain specific files that helped in building the vehice product review.
 ## Tools Used
 This project was built with the following tools:
 
@@ -56,7 +56,10 @@ Running the application is very straight forward. You can use the following step
 
 - Run the application on the terminal
 
-      ruby run.rb
+      rake console
+
+          ruse Review.all
+
 
 # Authors
 This project was contributed to by:
