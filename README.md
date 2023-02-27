@@ -1,66 +1,66 @@
-# E-Commerce-Domain
-This repository contains an e-commerce domain that was developed to practice Active Record Migrations, Active Record Associations, Class and Instance Methods, and Active Record Querying in Ruby.
+# Vehicles Product Review
+This is a code challenge using ruby classes and methods that supposed to print out the magazine name author and article titles.
 
+This repo contains a list of three files, articles, test and test3. The aarticles files contains the code of the author, magazine and articles while the test file contain the test to be run.
 ## Tools Used
-This project was developed using the following tools:
+This project was built with the following tools:
 
-1. `Ruby ~ v3.1.+`
-## Topics Covered
-The following concepts were covered during the development of this project:
-
-1. Active Record Migrations
-2. Active Record Associations
-3. Class and Instance Methods
-4. Active Record Querying
-
-Documentation for the Ruby language can be found here: Ruby Docs
+- [Ruby ~ v3.1.+](https://www.ruby-lang.org/en/)
 
 ## Pre-requisites
-- To use this repository, you must have the following installed on your system:
+In order to use this repo you need to have the following installed:
 
-- An OS (Windows 10+, Linux or MacOS, running on x86 or arm architecture)
-Ruby - 3.1.+
+- OS [either: Windows 10+, Linux or MacOS(running on x86 or arm architecture)]
+- Ruby - 2.7.4+
+
 ## Installation
-To use this repository on your local machine, follow these simple steps:
 
-Open a terminal or command line interface on your computer
+To use this repo on your machine requires some simple steps
 
-Clone the repository by running the following command:
+### Alternative One
 
-[Press here to clone](https://github.com/CaseyOchieng/Active-Record-code-challenge) and 
- wait for the repository to finish cloning on your local machine.
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
 
-Change directory to the repository folder:
+        git clone https://github.com/AlexTanui/Articles---without-AR.git
+
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
+
+        cd Articles---without-AR
+
+- (Optional) Open it in ``Visual Studio Code``
+
+        code .
+
+- (Alternate Option) Open it in any editor of your choice.
 
 
-1. cd Active-Record-code-challenge 
+### Alternative Two
 
-2. (Optional) Open the repository in Visual Studio Code:
+- On the top right corner of this page there is a button labelled ``Fork``.
+- Click on that button to fork the repo to your own account.
+- Take on the process in ``Alternative One`` above.
+- Remember to replace your username when cloning.
 
-3.  Running the Application
-To run the application, follow these steps:
+        git clonehttps://github.com/AlexTanui/Articles---without-AR.git
 
-Install the required dependencies using bundler:
 
- - `bundle install`
+# Running the application
 
-Run the following command to test out the different methods and associations:
+Running the application is very straight forward. You can use the following steps to run the app.
 
-- `rake console`
-- Then use `Review.all` 
+- Install required dependencies using bundle
 
-- A pry prompt will appear where you can inspect the code by creating a product, review, and user, and retrieve their data using getters and perform Active Record methods.
+      bundle install
 
-## Entity Relationship Diagram
-- The Entity Relationship Diagram below shows how the different models are associated:
+- Run the application on the terminal
 
-## Entity Relationship Diagram
+      ruby run.rb
 
-- A one-to-many relationship exists, meaning that one product or user can have many reviews.
-- A many-to-many relationship exists, meaning that a user can have many products, and a product can have many users.
-## Authors
+# Authors
 This project was contributed to by:
+- [Alex Tanui](https://github.com/AlexTanui/)
 
-[Casey Ochieng](https://github.com/CaseyOchieng)
-
-
+# License
+The project is licensed under Apache 2.0.
