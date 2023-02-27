@@ -22,7 +22,7 @@ To use this repo on your machine requires some simple steps
 - Open a terminal / command line interface on your computer
 - Clone the repo by using the following:
 
-        git clone https://github.com/AlexTanui/Articles---without-AR.git
+        git clone https://github.com/AlexTanui/product-review
 
 - Be patient as it creates a copy on your local machine for you.
 - Change directory to the repo folder:
@@ -43,7 +43,7 @@ To use this repo on your machine requires some simple steps
 - Take on the process in ``Alternative One`` above.
 - Remember to replace your username when cloning.
 
-        git clonehttps://github.com/AlexTanui/Articles---without-AR.git
+        git clone https://github.com/AlexTanui/product-review
 
 
 # Running the application
